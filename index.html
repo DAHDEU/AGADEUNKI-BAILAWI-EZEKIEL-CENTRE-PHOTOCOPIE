@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AGADEUNKI DAHDEU EZEKIEL Centre de Photocopie </title>
+    <link rel="stylesheet" 
+    href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Logo du centre">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#tarifs">Tarifs</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h1>Bienvenue à votre centre de photocopie</h1>
+        <p>Des solutions rapides, fiables et économiques pour tous vos besoins en impression.</p>
+        <a href="#services" class="btn">Voir nos services</a>
+    </section>
+
+    <section id="services">
+        <h2>Nos Services</h2>
+        <div class="service-grid">
+            <div class="service">
+                <h3>Photocopie</h3>
+                <p>Impression de documents en noir et blanc ou en couleur.</p>
+            </div>
+            <div class="service">
+                <h3>Numérisation</h3>
+                <p>Numérisation de vos documents avec un service de qualité.</p>
+            </div>
+            <div class="service">
+                <h3>Reliure</h3>
+                <p>Options de reliure pour vos dossiers et documents professionnels.</p>
+            </div>
+            <div class="service">
+                <h3>Impression Grand Format</h3>
+                <p>Impression de plans, affiches et bannières en grand format.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="tarifs">
+        <h2>Nos Tarifs</h2>
+        <table>
+            <tr>
+                <th>Service</th>
+                <th>Prix (unité)</th>
+                </tr>
+            <tr>
+                <td>Impression A4</td>
+                <td>100fcfa</td>
+                </tr>
+            <tr>
+                <td>Photocopie couleur A3</td>
+                <td>750fcfa</td>
+                </tr>
+            <tr>
+                <td>Photocopie Noir et Blanc A3</td>
+                <td>125fcfa</td>
+            </tr>
+            <tr>
+                <td>Photocopie Noir et Blanc A4</td>
+                <td>25fcfa</td>
+            </tr>
+            <tr>
+                <td>Photocopie Couleur A4</td>
+                <td>500cfa</td>
+            </tr>
+            <tr>
+                <td>Numérisation</td>
+                <td>250fcfa</td>
+            </tr>
+            <tr>
+                <td>Reliure</td>
+                <td>500fcfa</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="Contact">
+        <h2>Contactez-nous</h2>
+        <form action="submit.php" method="POST">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Envoyer</button>
+        </form>
+        <p>Adresse: 2ème Etage devant l'ambassade des Etats Unies</p>
+        <p>Téléphone: +235 66 95 79 11(whatsap)</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 AGADEUNKI DAHDEU EZEKIEL Centre de Photocopie . Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
